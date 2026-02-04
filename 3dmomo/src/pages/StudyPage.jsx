@@ -138,16 +138,13 @@ const MODEL_DATA = {
         name: "MachineVice",
         parts: [
             { id: "Fuhrung", url: "/models/MachineVice/Part1 Fuhrung.glb", defaultPos: [-0.1601, 0.1301, -0.0107], direction: [0, 10, 0], rotation: [-1.5724, 0.0000, 0.0000] },
-            { id: "Part1m", url: "/models/MachineVice/Part1.glb", defaultPos: [0, 0, 0], direction: [0, 10, 0], rotation: [0, 0, 0] },
             { id: "Part2m", url: "/models/MachineVice/Part2 Feste Backe.glb", defaultPos: [-0.1854, 0.0996, -0.0004], direction: [0, 5, 0], rotation: [3.1347, 1.5686, -3.1402] },
             { id: "Part3m", url: "/models/MachineVice/Part3-lose backe.glb", defaultPos: [-0.0456, 0.1361, -0.0005], direction: [0, -5, 0], rotation: [0.0000, 1.5678, 0.0000] },
             { id: "Part4m", url: "/models/MachineVice/Part4 spindelsockel.glb", defaultPos: [-0.0201, 0.1001, -0.0205], direction: [0, -5, 0], rotation: [0.0000, 1.5662, 0.0000] },
             { id: "Part5-1m", url: "/models/MachineVice/Part5-Spannbacke.glb", defaultPos: [-0.0885, 0.1361, -0.0765], direction: [0, -5, 0], rotation: [0.0000, -1.5670, 0.0000] },
             { id: "Part5-2m", url: "/models/MachineVice/Part5-Spannbacke.glb", defaultPos: [-0.1678, 0.1353, 0.0001], direction: [0, -5, 0], rotation: [-3.1416, 1.5658, -3.1416] },
-            { id: "Part6m", url: "/models/MachineVice/Part6-fuhrungschiene.glb", defaultPos: [0, 0, 0], direction: [0, -5, 0], rotation: [0, 0, 0] },
             { id: "Part7m", url: "/models/MachineVice/Part7-TrapezSpindel.glb", defaultPos: [0.0745, 0.1442, -0.0381], direction: [0, -5, 0], rotation: [-3.1416, 1.5688, -3.1416] },
             { id: "Part8m", url: "/models/MachineVice/Part8-grundplatte.glb", defaultPos: [0, 0.1, 0], direction: [0, -10, 0], rotation: [1.5758, -0.0000, -3.1402] },
-            { id: "Part9m", url: "/models/MachineVice/Part9-Druckhulse.glb", defaultPos: [0.0010, 0.1074, -0.0485], direction: [0, -10, 0], rotation: [0.0000, -1.5649, 0.0000] },
         ]
     },
     "4": {
@@ -213,7 +210,7 @@ const MODEL_DATA = {
             { id: "Bolt3", url: "/models/V4_Engine/Conrod Bolt.glb", defaultPos: [0.2708, 0.1487, 0.0070], direction: [0, -5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
             { id: "Bolt4", url: "/models/V4_Engine/Conrod Bolt.glb", defaultPos: [0.2708, 0.1624, -0.0676], direction: [0, -5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
             { id: "Bolt5", url: "/models/V4_Engine/Conrod Bolt.glb", defaultPos: [0.3838, 0.1487, 0.0070], direction: [0, -5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
-            { id: "Bolt6", url: "/models/V4_Engine/Conrod Bolt.glb", defaultPos: [0.2708, 0.1624, -0.0676], direction: [0, -5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
+            { id: "Bolt6", url: "/models/V4_Engine/Conrod Bolt.glb", defaultPos: [0.3838, 0.1624, -0.0676], direction: [0, -5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
             { id: "Bolt7", url: "/models/V4_Engine/Conrod Bolt.glb", defaultPos: [0.4984, 0.1110, 0.0669], direction: [0, -5, 0], rotation: [2.9430, -1.5665, 3.1415] },
             { id: "Bolt8", url: "/models/V4_Engine/Conrod Bolt.glb", defaultPos: [0.4984, 0.0959, -0.0076], direction: [0, -5, 0], rotation: [2.9430, -1.5665, 3.1415] },
             { id: "CS", url: "/models/V4_Engine/Crankshaft.glb", defaultPos: [0, 0.1, 0], direction: [0, -5, 0], rotation: [-0.9394, 0.0000, 0.0000] },
