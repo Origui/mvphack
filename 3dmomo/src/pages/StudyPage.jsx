@@ -89,25 +89,25 @@ const MODEL_DATA = {
     "1": {
         name: "Jet Engine Assembly",
         parts: [
-            { id: "base_gear", url: "/models/BaseGear.glb", defaultPos: [0.0076, 0.0178, -0.0027], direction: [0, -0.2, 0], rotation: [0, -1.5706, 0] },
+            { id: "base_gear", url: "/models/BaseGear.glb", defaultPos: [0.0076, 0.0178, -0.0027], direction: [0, -0.2, 0], rotation: [0.0000, -1.5706, 0.0000] },
             { id: "mounting_bracket", url: "/models/BaseMountingbracket.glb", defaultPos: [0.0101, -0.0053, 0.0060], direction: [0, 0.2, 0], rotation: [-0.1133, 1.5241, 1.6775] },
             { id: "base_plate", url: "/models/BasePlate.glb", defaultPos: [0, 0, 0], direction: [0, -0.2, 0], rotation: [0, 0, 0] },
             { id: "gear_link_1", url: "/models/Gearlink1.glb", defaultPos: [0.0136, 0.0378, 0.0048], direction: [0.2, 0.2, 0], rotation: [1.5754, -0.0569, -1.5434] },
             { id: "gear_link_2", url: "/models/Gearlink2.glb", defaultPos: [-0.0136, 0.0378, 0.0062], direction: [-0.2, 0.2, 0], rotation: [-3.1374, -0.0061, -1.7756] },
-            { id: "link_L", url: "/models/Link.glb", defaultPos: [-0.15, 0.2, 0], direction: [-0.3, 0.1, 0], rotation: [0, 0, 0] },
-            { id: "link_R", url: "/models/Link.glb", defaultPos: [0.15, 0.2, 0], direction: [0.3, 0.1, 0], rotation: [0, 0, 0] },
-            { id: "gripper_L", url: "/models/Gripper.glb", defaultPos: [-0.2, 0.25, 0.05], direction: [-0.3, 0, 0.2], rotation: [0, 0, 0] },
-            { id: "gripper_R", url: "/models/Gripper.glb", defaultPos: [0.2, 0.25, 0.05], direction: [0.3, 0, 0.2], rotation: [0, 0, 0] },
-            { id: "Pin_01", url: "/models/Pin.glb", defaultPos: [0.0053, 0.0575, 0.0024], direction: [0.2, 0.2, 0.2], rotation: [Math.PI, -1.5402, Math.PI] },
-            { id: "Pin_02", url: "/models/Pin.glb", defaultPos: [-0.0043, 0.0574, 0.0023], direction: [-0.2, 0.2, 0.2], rotation: [Math.PI, -1.5402, Math.PI] },
-            { id: "Pin_03", url: "/models/Pin.glb", defaultPos: [0.03, 0.08, 0.0024], direction: [0.2, 0.2, -0.2], rotation: [Math.PI, -1.5402, Math.PI] },
-            { id: "Pin_04", url: "/models/Pin.glb", defaultPos: [-0.03, 0.08, 0.0024], direction: [-0.2, 0.2, -0.2], rotation: [Math.PI, -1.5402, Math.PI] },
-            { id: "Pin_05", url: "/models/Pin.glb", defaultPos: [0.06, 0.08, 0.0024], direction: [0.3, 0.1, 0], rotation: [Math.PI, -1.5402, Math.PI] },
-            { id: "Pin_06", url: "/models/Pin.glb", defaultPos: [-0.0136, 0.0377, 0.0025], direction: [0, 0.1, 0.3], rotation: [Math.PI, -1.5402, Math.PI] },
-            { id: "Pin_07", url: "/models/Pin.glb", defaultPos: [0.0141, 0.0377, 0.0025], direction: [0, 0.1, 0.3], rotation: [Math.PI, -1.5402, Math.PI] },
-            { id: "Pin_08", url: "/models/Pin.glb", defaultPos: [0, 0.08, 0.0024], direction: [0, 0.1, -0.3], rotation: [Math.PI, -1.5402, Math.PI] },
-            { id: "Pin_09", url: "/models/Pin.glb", defaultPos: [0.0053, 0.0034, 0.0022], direction: [0.1, 0, 0.2], rotation: [Math.PI, -1.5402, Math.PI] },
-            { id: "Pin_10", url: "/models/Pin.glb", defaultPos: [-0.0053, 0.0034, 0.0022], direction: [-0.1, 0, 0.2], rotation: [Math.PI, -1.5402, Math.PI] },
+            { id: "link_L", url: "/models/Link.glb", defaultPos: [-0.0064, 0.0740, 0.0048], direction: [-0.3, 0.1, 0], rotation: [-1.5713, -0.0883, -1.5496] },
+            { id: "link_R", url: "/models/Link.glb", defaultPos: [0.0060, 0.0739, 0.0049], direction: [0.3, 0.1, 0], rotation: [-1.5634, 0.0671, -1.5615] },
+            { id: "gripper_L", url: "/models/Gripper.glb", defaultPos: [-0.0031, 0.0870, 0.0000], direction: [-0.3, 0, 0.2], rotation: [-0.0002, 0.0284, 1.1878] },
+            { id: "gripper_R", url: "/models/Gripper.glb", defaultPos: [0.0027, 0.0870, 0.0012], direction: [0.3, 0, 0.2], rotation: [-3.1414, -0.0374, -1.9538] },
+            { id: "Pin_01", url: "/models/Pin.glb", defaultPos: [0.0052, 0.0585, 0.0024], direction: [0.2, 0.2, 0.2], rotation: [3.1416, -1.5402, 3.1416] },
+            { id: "Pin_02", url: "/models/Pin.glb", defaultPos: [-0.0075, 0.0895, 0.0024], direction: [-0.2, 0.2, 0.2], rotation: [3.1416, -1.5402, 3.1416] },
+            { id: "Pin_03", url: "/models/Pin.glb", defaultPos: [0.0154, 0.0689, 0.0020], direction: [0.2, 0.2, -0.2], rotation: [3.1416, -1.5402, 3.1416] },
+            { id: "Pin_04", url: "/models/Pin.glb", defaultPos: [-0.0154, 0.0689, 0.0020], direction: [-0.2, 0.2, -0.2], rotation: [3.1416, -1.5402, 3.1416] },
+            { id: "Pin_05", url: "/models/Pin.glb", defaultPos: [0.0073, 0.0894, 0.0024], direction: [0.3, 0.1, 0], rotation: [3.1416, -1.5402, 3.1416] },
+            { id: "Pin_06", url: "/models/Pin.glb", defaultPos: [-0.0136, 0.0377, 0.0025], direction: [-0.3, 0.1, 0], rotation: [3.1416, -1.5402, 3.1416] },
+            { id: "Pin_07", url: "/models/Pin.glb", defaultPos: [0.0141, 0.0377, 0.0025], direction: [0, 0.1, 0.3], rotation: [3.1416, -1.5402, 3.1416] },
+            { id: "Pin_08", url: "/models/Pin.glb", defaultPos: [-0.0048, 0.0584, 0.0024], direction: [0, 0.1, -0.3], rotation: [3.1416, -1.5402, 3.1416] },
+            { id: "Pin_09", url: "/models/Pin.glb", defaultPos: [0.0053, 0.0034, 0.0022], direction: [0.1, 0, 0.2], rotation: [3.1416, -1.5402, 3.1416] },
+            { id: "Pin_10", url: "/models/Pin.glb", defaultPos: [-0.0053, 0.0034, 0.0022], direction: [-0.1, 0, 0.2], rotation: [3.1416, -1.5402, 3.1416] },
         ]
     },
     "2": {
@@ -177,15 +177,60 @@ const MODEL_DATA = {
     "5": {
         name: "Robot Arm",
         parts: [
-            { id: "Base", url: "/models/base.glb", defaultPos: [0, 0, 0], direction: [0, 10, 0], rotation: [0, 0, 0] },
+            { id: "Baser", url: "/models/base.glb", defaultPos: [0, 0, 0], direction: [0, 10, 0], rotation: [0, 0, 0] },
             { id: "Part2r", url: "/models/Part2.glb", defaultPos: [0.0000, 0.0821, -0.0000], direction: [0, 10, 0], rotation: [0.0000, 1.5550, 0.0000] },
             { id: "Part3r", url: "/models/Part3.glb", defaultPos: [0.1498, 0.2422, 0.0222], direction: [0, 5, 0], rotation: [1.5615, -0.6519, -0.0056] },
             { id: "Part4r", url: "/models/Part4.glb", defaultPos: [-0.1810, 0.4973, -0.0253], direction: [0, -5, 0], rotation: [-1.9292, 1.5260, 1.9288] },
             { id: "Part5r", url: "/models/Part5.glb", defaultPos: [0.1150, 0.5099, -0.0298], direction: [0, -5, 0], rotation: [-1.6017, 1.5257, 1.6016] },
             { id: "Part6r", url: "/models/Part6.glb", defaultPos: [0.2629, 0.4971, -0.0299], direction: [0, -5, 0], rotation: [-1.5645, 0.4378, 1.5615] },
             { id: "Part7r", url: "/models/Part7.glb", defaultPos: [0.3098, 0.4755, -0.0293], direction: [0, -5, 0], rotation: [1.5474, 1.1308, -1.5497] },
-            { id: "Part8-1r", url: "/models/Part8.glb", defaultPos: [0.3951, 0.4262, 0.0002], direction: [0, -5, 0], rotation: [-1.5298, 0.4342, 1.2922] },
+            { id: "Part8-1r", url: "/models/Part8.glb", defaultPos: [0.3946, 0.4257, 0.0010], direction: [0, -5, 0], rotation: [-1.5636, 0.4342, 1.2922] },
             { id: "Part8-2r", url: "/models/Part8.glb", defaultPos: [0.4023, 0.4414, -0.0569], direction: [0, -5, 0], rotation: [1.5767, -0.4456, 1.3316] },
+        ]
+    },
+    "6": {
+        name: "Suspension",
+        parts: [
+            { id: "Bases", url: "/models/BASES.glb", defaultPos: [0, 0.028, 0], direction: [0, 10, 0], rotation: [0.6156, 0.0000, 0.0000] },
+            { id: "Nut", url: "/models/NUTS.glb", defaultPos: [0.0000, 0.1118, 0.0589], direction: [0, 5, 0], rotation: [0.6171, 0.0000, 0.0000] },
+            { id: "Rod", url: "/models/ROD.glb", defaultPos: [-0.0001, 0.1198, 0.0646], direction: [0, -5, 0], rotation: [0.6156, 0.0000, 0.0000] },
+            { id: "Spring", url: "/models/SPRING.glb", defaultPos: [-0.0001, 0.0306, 0.0015], direction: [0, -5, 0], rotation: [0.6156, 0.0000, 0.0000] },
+        ]
+    },
+    "7": {
+        name: "V4_Engine",
+        parts: [
+            { id: "CRodCap1", url: "/models/Connecting Rod Cap.glb", defaultPos: [0.1557, 0.0741, 0.0355], direction: [0, 10, 0], rotation: [2.9430, -1.5665, 3.1415] },
+            { id: "CRodCap2", url: "/models/Connecting Rod Cap.glb", defaultPos: [0.2708, 0.1261, -0.0355], direction: [0, 10, 0], rotation: [-2.9596, -1.5665, 3.1415] },
+            { id: "CRodCap3", url: "/models/Connecting Rod Cap.glb", defaultPos: [0.3838, 0.1261, -0.0355], direction: [0, 10, 0], rotation: [-2.9596, -1.5665, 3.1415] },
+            { id: "CRodCap4", url: "/models/Connecting Rod Cap.glb", defaultPos: [0.4984, 0.0741, 0.0355], direction: [0, 10, 0], rotation: [2.9430, -1.5665, 3.1415] },
+            { id: "CRod1", url: "/models/Connecting Rod.glb", defaultPos: [0.1557, 0.2712, -0.0042], direction: [0, 5, 0], rotation: [2.9430, -1.5665, 3.1415] },
+            { id: "CRod2", url: "/models/Connecting Rod.glb", defaultPos: [0.2708, 0.3240, 0.0008], direction: [0, 5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
+            { id: "CRod3", url: "/models/Connecting Rod.glb", defaultPos: [0.3838, 0.3240, 0.0008], direction: [0, 5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
+            { id: "CRod4", url: "/models/Connecting Rod.glb", defaultPos: [0.4984, 0.2712, -0.0042], direction: [0, 5, 0], rotation: [2.9430, -1.5665, 3.1415] },
+            { id: "Bolt1", url: "/models/Conrod Bolt.glb", defaultPos: [0.1557, 0.1110, 0.0669], direction: [0, -5, 0], rotation: [2.9430, -1.5665, 3.1415] },
+            { id: "Bolt2", url: "/models/Conrod Bolt.glb", defaultPos: [0.1557, 0.0959, -0.0076], direction: [0, -5, 0], rotation: [2.9430, -1.5665, 3.1415] },
+            { id: "Bolt3", url: "/models/Conrod Bolt.glb", defaultPos: [0.2708, 0.1487, 0.0070], direction: [0, -5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
+            { id: "Bolt4", url: "/models/Conrod Bolt.glb", defaultPos: [0.2708, 0.1624, -0.0676], direction: [0, -5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
+            { id: "Bolt5", url: "/models/Conrod Bolt.glb", defaultPos: [0.3838, 0.1487, 0.0070], direction: [0, -5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
+            { id: "Bolt6", url: "/models/Conrod Bolt.glb", defaultPos: [0.2708, 0.1624, -0.0676], direction: [0, -5, 0], rotation: [-2.9596, -1.5665, 3.1415] },
+            { id: "Bolt7", url: "/models/Conrod Bolt.glb", defaultPos: [0.4984, 0.1110, 0.0669], direction: [0, -5, 0], rotation: [2.9430, -1.5665, 3.1415] },
+            { id: "Bolt8", url: "/models/Conrod Bolt.glb", defaultPos: [0.4984, 0.0959, -0.0076], direction: [0, -5, 0], rotation: [2.9430, -1.5665, 3.1415] },
+            { id: "CS", url: "/models/Crankshaft.glb", defaultPos: [0, 0.1, 0], direction: [0, -5, 0], rotation: [-0.9394, 0.0000, 0.0000] },
+            { id: "PP1", url: "/models/Piston Pin.glb", defaultPos: [0.1963, 0.2712, -0.0042], direction: [0, -5, 0], rotation: [0.0000, 1.5675, 0.0000] },
+            { id: "PP2", url: "/models/Piston Pin.glb", defaultPos: [0.3114, 0.3240, 0.0008], direction: [0, -5, 0], rotation: [0.0000, 1.5675, 0.0000] },
+            { id: "PP3", url: "/models/Piston Pin.glb", defaultPos: [0.4248, 0.3240, 0.0008], direction: [0, -5, 0], rotation: [0.0000, 1.5675, 0.0000] },
+            { id: "PP4", url: "/models/Piston Pin.glb", defaultPos: [0.5398, 0.2712, -0.0042], direction: [0, -5, 0], rotation: [0.0000, 1.5675, 0.0000] },
+            { id: "PR1", url: "/models/Piston Ring.glb", defaultPos: [0.1557, 0.3225, -0.0042], direction: [0, -5, 0], rotation: [0, 0, 0] },
+            { id: "PR2", url: "/models/Piston Ring.glb", defaultPos: [0.1557, 0.3109, -0.0042], direction: [0, -5, 0], rotation: [0, 0, 0] },
+            { id: "PR3", url: "/models/Piston Ring.glb", defaultPos: [0.1557, 0.2993, -0.0042], direction: [0, -5, 0], rotation: [0, 0, 0] },
+            { id: "PR4", url: "/models/Piston Ring.glb", defaultPos: [0.2708, 0.3753, 0.0008], direction: [0, -5, 0], rotation: [0, 0, 0] },
+            { id: "PR5", url: "/models/Piston Ring.glb", defaultPos: [0.3838, 0.3753, 0.0008], direction: [0, -5, 0], rotation: [0, 0, 0] },
+            { id: "PR6", url: "/models/Piston Ring.glb", defaultPos: [0.4984, 0.3225, -0.0042], direction: [0, -5, 0], rotation: [0, 0, 0] },
+            { id: "Piston1", url: "/models/Piston.glb", defaultPos: [0.1557, 0.2441, -0.0042], direction: [0, -5, 0], rotation: [-3.1416, 1.5644, -3.1416] },
+            { id: "Piston2", url: "/models/Piston.glb", defaultPos: [0.2708, 0.2969, 0.0008], direction: [0, -5, 0], rotation: [-3.1416, 1.5644, -3.1416] },
+            { id: "Piston3", url: "/models/Piston.glb", defaultPos: [0.3838, 0.2969, 0.0008], direction: [0, -5, 0], rotation: [-3.1416, 1.5644, -3.1416] },
+            { id: "Piston4", url: "/models/Piston.glb", defaultPos: [0.4984, 0.2441, -0.0042], direction: [0, -5, 0], rotation: [-3.1416, 1.5644, -3.1416] },
         ]
     }
 };
@@ -269,6 +314,14 @@ export default function StudyPage() {
                             onClick={() => navigate('/study/5')}
                             className={`px-3 py-1 text-[10px] font-bold rounded-md transition-all ${id === '5' ? 'bg-sky-500 text-white shadow-lg' : 'text-slate-500 hover:text-white'}`}
                         >Robot Arm</button>
+                        <button
+                            onClick={() => navigate('/study/6')}
+                            className={`px-3 py-1 text-[10px] font-bold rounded-md transition-all ${id === '6' ? 'bg-sky-500 text-white shadow-lg' : 'text-slate-500 hover:text-white'}`}
+                        >Suspension</button>
+                        <button
+                            onClick={() => navigate('/study/7')}
+                            className={`px-3 py-1 text-[10px] font-bold rounded-md transition-all ${id === '7' ? 'bg-sky-500 text-white shadow-lg' : 'text-slate-500 hover:text-white'}`}
+                        >V4_Engine</button>
                     </div>
                 </div>
             </header>
