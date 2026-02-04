@@ -141,6 +141,52 @@ const MODEL_DATA = {
             { id: "Fixing_Nut_LB", url: "/models/Nut.glb", defaultPos: [-0.0514, 0.1061, -0.0048], direction: [0, 0.4, 0], rotation: [0, 0, 0] },
             { id: "Fixing_Nut_RB", url: "/models/Nut.glb", defaultPos: [0.0514, 0.1061, -0.0048], direction: [0, 0.4, 0], rotation: [0, 0, 0] },
         ]
+    },
+    "3": {
+        name: "Leaf Spring",
+        parts: [
+            { id: "Chassis", url: "/models/Support-Chassis.glb", defaultPos: [-0.0064, 0.2511, -0.6397], direction: [0, 10, 0], rotation: [3.1402, 0.0000, 0.0000] },
+            { id: "Chassis_Rigid", url: "/models/Support-Chassis Rigid.glb", defaultPos: [-0.0081, 0.1658, 0.4534], direction: [0, 10, 0], rotation: [-3.1381, 0.0000, 0.0000] },
+            { id: "Leaf_Layer", url: "/models/Leaf-Layer.glb", defaultPos: [0, 0.13, 0], direction: [0, 5, 0], rotation: [0, 0, 0] },
+            { id: "Clamp_Center", url: "/models/Clamp-Center.glb", defaultPos: [0.0798, 0.0535, -0.0008], direction: [0, -5, 0], rotation: [0, 0, 0] },
+            { id: "Clamp_Primary_L", url: "/models/Clamp-Primary.glb", defaultPos: [0.0837, 0.0632, 0.1287], direction: [0, -5, 0], rotation: [-0.0650, 0.0000, 0.0000] },
+            { id: "Clamp_Primary_R", url: "/models/Clamp-Primary.glb", defaultPos: [0.0837, 0.0632, -0.1287], direction: [0, -5, 0], rotation: [0.0650, 0.0000, 0.0000] },
+            { id: "Clamp_Secondary_L", url: "/models/Clamp-Secondary.glb", defaultPos: [0.0835, 0.0928, 0.2816], direction: [0, -5, 0], rotation: [-0.1597, 0.0000, 0.0000] },
+            { id: "Clamp_Secondary_R", url: "/models/Clamp-Secondary.glb", defaultPos: [0.0837, 0.0961, -0.2731], direction: [0, -5, 0], rotation: [0.1597, 0.0000, 0.0000] },
+            { id: "SupportL", url: "/models/Support.glb", defaultPos: [0.0775, 0.2105, -0.5994], direction: [0, -10, 0], rotation: [1.9142, -1.5582, 3.1416] },
+            { id: "SupportR", url: "/models/Support.glb", defaultPos: [-0.0006, 0.2562, -0.5829], direction: [0, -10, 0], rotation: [1.9142, 1.5582, 3.1416] },
+            { id: "Rubber", url: "/models/Support-Rubber 60mm.glb", defaultPos: [0.0074, 0.2494, -0.6404], direction: [0, -15, 0], rotation: [0, 0, 0] },
+        ]
+    },
+    "4": {
+        name: "Machine Vice",
+        parts: [
+            { id: "Fuhrung", url: "/models/Part1 Fuhrung.glb", defaultPos: [-0.1601, 0.1301, -0.0107], direction: [0, 10, 0], rotation: [-1.5724, 0.0000, 0.0000] },
+            { id: "Part1m", url: "/models/Part1.glb", defaultPos: [0, 0, 0], direction: [0, 10, 0], rotation: [0, 0, 0] },
+            { id: "Part2m", url: "/models/Part2 Feste Backe.glb", defaultPos: [-0.1854, 0.0996, -0.0004], direction: [0, 5, 0], rotation: [3.1347, 1.5686, -3.1402] },
+            { id: "Part3m", url: "/models/Part3-lose backe.glb", defaultPos: [-0.0456, 0.1361, -0.0005], direction: [0, -5, 0], rotation: [0.0000, 1.5678, 0.0000] },
+            { id: "Part4m", url: "/models/Part4 spindelsockel.glb", defaultPos: [-0.0201, 0.1001, -0.0205], direction: [0, -5, 0], rotation: [0.0000, 1.5662, 0.0000] },
+            { id: "Part5-1m", url: "/models/Part5-Spannbacke.glb", defaultPos: [-0.0885, 0.1361, -0.0765], direction: [0, -5, 0], rotation: [0.0000, -1.5670, 0.0000] },
+            { id: "Part5-2m", url: "/models/Part5-Spannbacke.glb", defaultPos: [-0.1678, 0.1353, 0.0001], direction: [0, -5, 0], rotation: [-3.1416, 1.5658, -3.1416] },
+            { id: "Part6m", url: "/models/Part6-fuhrungschiene.glb", defaultPos: [0, 0, 0], direction: [0, -5, 0], rotation: [0, 0, 0] },
+            { id: "Part7m", url: "/models/Part7-TrapezSpindel.glb", defaultPos: [0.0745, 0.1442, -0.0381], direction: [0, -5, 0], rotation: [-3.1416, 1.5688, -3.1416] },
+            { id: "Part8m", url: "/models/Part8-grundplatte.glb", defaultPos: [0, 0.1, 0], direction: [0, -10, 0], rotation: [1.5758, -0.0000, -3.1402] },
+            { id: "Part9m", url: "/models/Part9-Druckhulse.glb", defaultPos: [0.0010, 0.1074, -0.0485], direction: [0, -10, 0], rotation: [0.0000, -1.5649, 0.0000] },
+        ]
+    },
+    "5": {
+        name: "Robot Arm",
+        parts: [
+            { id: "Base", url: "/models/base.glb", defaultPos: [0, 0, 0], direction: [0, 10, 0], rotation: [0, 0, 0] },
+            { id: "Part2r", url: "/models/Part2.glb", defaultPos: [0.0000, 0.0821, -0.0000], direction: [0, 10, 0], rotation: [0.0000, 1.5550, 0.0000] },
+            { id: "Part3r", url: "/models/Part3.glb", defaultPos: [0.1498, 0.2422, 0.0222], direction: [0, 5, 0], rotation: [1.5615, -0.6519, -0.0056] },
+            { id: "Part4r", url: "/models/Part4.glb", defaultPos: [-0.1810, 0.4973, -0.0253], direction: [0, -5, 0], rotation: [-1.9292, 1.5260, 1.9288] },
+            { id: "Part5r", url: "/models/Part5.glb", defaultPos: [0.1150, 0.5099, -0.0298], direction: [0, -5, 0], rotation: [-1.6017, 1.5257, 1.6016] },
+            { id: "Part6r", url: "/models/Part6.glb", defaultPos: [0.2629, 0.4971, -0.0299], direction: [0, -5, 0], rotation: [-1.5645, 0.4378, 1.5615] },
+            { id: "Part7r", url: "/models/Part7.glb", defaultPos: [0.3098, 0.4755, -0.0293], direction: [0, -5, 0], rotation: [1.5474, 1.1308, -1.5497] },
+            { id: "Part8-1r", url: "/models/Part8.glb", defaultPos: [0.3951, 0.4262, 0.0002], direction: [0, -5, 0], rotation: [-1.5298, 0.4342, 1.2922] },
+            { id: "Part8-2r", url: "/models/Part8.glb", defaultPos: [0.4023, 0.4414, -0.0569], direction: [0, -5, 0], rotation: [1.5767, -0.4456, 1.3316] },
+        ]
     }
 };
 
@@ -211,6 +257,18 @@ export default function StudyPage() {
                             onClick={() => navigate('/study/2')}
                             className={`px-3 py-1 text-[10px] font-bold rounded-md transition-all ${id === '2' ? 'bg-sky-500 text-white shadow-lg' : 'text-slate-500 hover:text-white'}`}
                         >DRONE</button>
+                        <button
+                            onClick={() => navigate('/study/3')}
+                            className={`px-3 py-1 text-[10px] font-bold rounded-md transition-all ${id === '3' ? 'bg-sky-500 text-white shadow-lg' : 'text-slate-500 hover:text-white'}`}
+                        >Leaf Spring</button>
+                        <button
+                            onClick={() => navigate('/study/4')}
+                            className={`px-3 py-1 text-[10px] font-bold rounded-md transition-all ${id === '4' ? 'bg-sky-500 text-white shadow-lg' : 'text-slate-500 hover:text-white'}`}
+                        >Machine Vice</button>
+                        <button
+                            onClick={() => navigate('/study/5')}
+                            className={`px-3 py-1 text-[10px] font-bold rounded-md transition-all ${id === '5' ? 'bg-sky-500 text-white shadow-lg' : 'text-slate-500 hover:text-white'}`}
+                        >Robot Arm</button>
                     </div>
                 </div>
             </header>
